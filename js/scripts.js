@@ -5,7 +5,6 @@ $(document).ready(function() {
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
     var inputtedAddress = $("input#new-address").val();
-    console.log(inputtedAddress);
     var newContact = { firstName: inputtedFirstName, lastName: inputtedLastName, address: inputtedAddress };
 
     $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + " " + newContact.lastName + "</span></li>");
@@ -13,5 +12,14 @@ $(document).ready(function() {
     $("input#new-first-name").val("");
     $("input#new-last-name").val("");
     $("input#new-address").val("");
+
+    $(".contact").last().click(function() {
+      console.log(".contact clicked");
+      $("#show-contact").show();
+      $("#show-contact h2").text(newContact.firstName + " " + newContact.lastName);
+      $(".first-name").text(newContact.firstName);
+      $(".last-name").text(newContact.lastName);
+      $(".address").text(newContact.address);
+    });
   });
 });
