@@ -4,6 +4,10 @@ function Contact(firstName, lastName) {
   this.addresses = [];
 }
 
+Contact.prototype.fullName = function() {
+  return this.firstName + " " + this.lastName;
+}
+
 $(document).ready(function() {
   $("#add-address").click(function() {
     $("#new-addresses").append('<hr>' +
