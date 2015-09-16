@@ -16,6 +16,7 @@ It's a very simple address book to demonstrate and practice some coding skills. 
 
 * _Clone directory from "https://github.com/DillonLloydLee/Address_Book_2.git"_
 * _Open the index.html file._
+* _To run tests, open the spec-runner.html file in the spec folder._
 * _That's it!  Run this program from the page and follow onscreen directions._
 
 
