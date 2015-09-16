@@ -9,7 +9,7 @@ began: 09/14/2015
 
 ### Description:
 
-It's an address book.
+It's a very simple address book to demonstrate and practice some coding skills.  Contact and Address are both prototypes created in JavaScript.  jQuery is used to change how the HTML webpage takes in and displays the addresses.  When you click on a contact's name, his whole set of information will appear.
 
 
 ### Setup:
