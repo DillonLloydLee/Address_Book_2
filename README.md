@@ -1,24 +1,27 @@
 # Address Book
 
-##### A website for organizing contacts, started 09/14/2015
-
-
 #### By Dillon Lloyd Lee & Cory Spitzer
 
+a system for organizing contacts
 
-## Description
+began: 09/14/2015
+
+
+### Description
 
 Address Book.
 
-## Setup
+
+### Setup
 
 * _Clone directory from "https://github.com/DillonLloydLee/Address_Book_2.git"_
 * _Open the index.html file._
 * _That's it!  Run this program from the page and follow onscreen directions._
 
-## Technologies Used
 
-JavaScript, jQuery, HTML, CSS.
+### Technologies Used
+
+JavaScript, jQuery, HTML, CSS, Mocha, Chai.
 
 
 ### Legal
