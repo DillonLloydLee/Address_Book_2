@@ -1,4 +1,4 @@
-// Contact prototype:
+// Contact prototype :
 
 function Contact(firstName, lastName) {
   this.firstName = firstName;
@@ -10,7 +10,7 @@ Contact.prototype.fullName = function() {
   return this.firstName + " " + this.lastName;
 }
 
-// Address prototype:
+// Address prototype :
 
 function Address(street, city, state) {
   this.street = street;
@@ -21,6 +21,8 @@ function Address(street, city, state) {
 Address.prototype.fullAddress = function() {
   return this.street + " " + this.city + ", " + this.state;
 }
+
+// jQuery :
 
 $(document).ready(function() {
   $("#add-address").click(function() {
