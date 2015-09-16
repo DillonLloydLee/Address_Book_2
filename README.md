@@ -7,24 +7,24 @@ a system for organizing contacts
 began: 09/14/2015
 
 
-### Description
+### Description:
 
-Address Book.
+It's an address book.
 
 
-### Setup
+### Setup:
 
 * _Clone directory from "https://github.com/DillonLloydLee/Address_Book_2.git"_
 * _Open the index.html file._
 * _That's it!  Run this program from the page and follow onscreen directions._
 
 
-### Technologies Used
+### Technologies Used:
 
 JavaScript, jQuery, HTML, CSS, Mocha, Chai.
 
 
-### Legal
+### Legal:
 
 
 Copyright (c) 2015 Dillon Lloyd Lee & Cory Spitzer
